@@ -1,0 +1,66 @@
+.card, .card1, .card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  background: #d1b9b9;
+  height: 422px;
+  border-radius: 3px;
+}
+.card{
+  float: left;
+  margin-left: 274px;
+  margin-top: 50px;
+}
+.card1{
+  float: left;
+  margin-left: 37px;
+  margin-top: 50px;
+}
+.card2{
+  float: left;
+  margin-left: 37px;
+  margin-top: 50px;
+}
+.title {
+  color: gray;
+  font-size: 18px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+button {
+  border: none;
+  
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
